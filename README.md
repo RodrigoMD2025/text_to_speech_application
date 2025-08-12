@@ -113,17 +113,26 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 5. Abrir um Pull Request
 
 ## 📄 Licença
+Distribuído sob a licença MIT. Consulte o arquivo LICENSE para detalhes.
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+## 🚀 Powered by Python + AI + Interface Gráfica
+*Aplicação de conversão texto-fala com interface intuitiva e tecnologias de ponta.*
 
-## 👨‍💻 Autor
+**Tecnologias:** Python · gTTS · FreeSimpleGUI · Pygame · Faster-Whisper · Google Text-to-Speech
 
-Seu Nome - [seu-email@exemplo.com](mailto:seu-email@exemplo.com)
+**Funcionalidades:** Conversão Texto-Fala · Interface Gráfica · Reprodução de Áudio · Suporte Multilíngue · Transcrição de Áudio · Processamento em Tempo Real
 
-Link do Projeto: [https://github.com/seu-usuario/text-to-speech-app](https://github.com/seu-usuario/text-to-speech-app)
+## 📬 Contato
+Vamos nos conectar? Sou sempre aberto a discussões sobre desenvolvimento Python, IA e automação!
 
-## 🙏 Agradecimentos
-
-- [gTTS](https://github.com/pndurette/gTTS) - Pela excelente biblioteca de text-to-speech
-- [FreeSimpleGUI](https://github.com/spyoungtech/FreeSimpleGUI) - Pela interface gráfica gratuita e open-source
-- [Faster-Whisper](https://github.com/guillaumekln/faster-whisper) - Pela implementação eficiente do Whisper
+<p align="left">
+  <a href="mailto:rodrigo.melo@example.com" title="Gmail">
+    <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/rodrigo-melo-dos-santos-0262a033/" title="LinkedIn">
+    <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white"/>
+  </a>
+  <a href="#" title="WhatsApp">
+    <img src="https://img.shields.io/badge/-WhatsApp-25D366?style=flat-square&labelColor=25D366&logo=whatsapp&logoColor=white"/>
+  </a>
+</p>
