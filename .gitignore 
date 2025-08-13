@@ -1,0 +1,28 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Configurações do editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos temporários e de log
+*.log
+*.tmp
+*.temp
+
+# Arquivos de áudio e mídia gerados pelo app
+audio_ia.mp3
+
+# Dados de build/distribuição
+build/
+dist/
+*.egg-info/
