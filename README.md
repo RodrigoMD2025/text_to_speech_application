@@ -1,6 +1,6 @@
 # Conversor de Mídia: Texto para Áudio e Áudio para Texto
 
-![Ícone](megafone.png)
+<img src="megafone.png" alt="Ícone" width="150"/>
 
 Uma aplicação de desktop para Windows que oferece funcionalidades de conversão de texto em fala (Text-to-Speech) e transcrição de áudio para texto (Speech-to-Text) em uma interface gráfica simples e intuitiva.
 
