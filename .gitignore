@@ -21,6 +21,7 @@ __pycache__/
 
 # Arquivos de áudio e mídia gerados pelo app
 audio_ia.mp3
+temp_audio_ia.mp3
 
 # Dados de build/distribuição
 build/
