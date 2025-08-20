@@ -27,7 +27,17 @@ Este aplicativo desktop oferece uma solução completa para conversão multimíd
 
 ## 🖼️ Capturas de Tela
 
-> *Screenshots serão adicionadas em breve*
+<div align="center">
+  
+### 🔊 Texto para Áudio (TTS)
+*Converta texto em fala com qualidade profissional usando Google TTS*
+<img src="assets/screenshots/texto-para-audio.png" alt="Funcionalidade Texto para Áudio" width="600"/>
+
+### 📝 Áudio para Texto (STT)
+*Transcreva arquivos de áudio para texto usando modelo Whisper da OpenAI*
+<img src="assets/screenshots/audio-para-texto.png" alt="Funcionalidade Áudio para Texto" width="600"/>
+
+</div>
 
 ## 🚀 Funcionalidades Detalhadas
 
