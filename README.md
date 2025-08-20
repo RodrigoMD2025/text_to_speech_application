@@ -1,15 +1,38 @@
-# Conversor de Mídia: Texto para Áudio e Áudio para Texto
+# Conversor Multimídia com PyQt6
 
-<img src="megafone.png" alt="Ícone" width="150"/>
+<p align="center">
+  <img src="megafone.png" alt="Ícone" width="150"/>
+</p>
 
-Uma aplicação de desktop para Windows/Linux que oferece funcionalidades de conversão de texto em fala (Text-to-Speech) e transcrição de áudio para texto (Speech-to-Text) em uma interface gráfica simples e intuitiva.
+<p align="center">
+  Um aplicativo de desktop moderno construído com PyQt6 que converte texto em fala e transcreve áudio para texto, com uma interface elegante e responsiva com efeito de vidro jateado.
+</p>
+
+---
+
+## Visão Geral
+
+Este projeto é uma evolução de um simples conversor de mídia. A interface foi totalmente reconstruída em **PyQt6** para oferecer uma experiência de usuário superior, com design moderno, funcionalidades assíncronas (a interface não trava) e controles de áudio avançados.
+
+### Pré-visualização
+
+*(Você pode adicionar um screenshot da nova interface aqui)*
+
+![placeholder](https://i.imgur.com/gYZrA2g.png)
 
 ## Funcionalidades
 
-- **Texto para Áudio (TTS):** Converte qualquer texto inserido em um arquivo de áudio `.mp3` e o reproduz automaticamente. Utiliza a biblioteca `gTTS` do Google.
-- **Áudio para Texto (STT):** Transcreve o conteúdo de arquivos de áudio (`.mp3`, `.wav`, `.m4a`) para texto. Utiliza o modelo de IA `Whisper` da OpenAI para alta precisão.
-- **Interface Gráfica:** Possui uma interface com abas, construída com `FreeSimpleGUI`, que separa claramente as duas funcionalidades principais.
-- **Feedback em Tempo Real:** Exibe notificações para o usuário durante operações demoradas, como o carregamento do modelo de IA e a transcrição de áudio.
+- **Interface Gráfica Moderna:** Construída com PyQt6, com um tema escuro e efeito de "vidro jateado" para um visual sofisticado.
+- **Texto para Áudio (TTS):**
+  - Converte texto em áudio usando `gTTS`.
+  - **Botão de Interrupção:** Permite parar a reprodução do áudio a qualquer momento.
+- **Áudio para Texto (STT):**
+  - Transcrição de alta precisão usando o modelo `faster-whisper` da OpenAI.
+  - O carregamento do modelo e a transcrição rodam em threads separadas para não congelar a aplicação.
+- **Controles de Áudio Globais:**
+  - **Controle de Volume:** Ajuste o volume da reprodução em tempo real com um slider.
+  - **Botão Mudo:** Ative e desative o som rapidamente com um clique, com feedback visual no ícone.
+- **Responsividade:** Feedback visual para o usuário com barras de progresso e desabilitação de botões durante tarefas longas.
 
 ## Configuração e Instalação
 
@@ -18,23 +41,23 @@ Para executar este projeto localmente, siga os passos abaixo.
 ### Pré-requisitos
 
 - Python 3.9+
-- Git
+- Git (opcional, para clonar)
 
 ### Passos
 
-1. **Clone o repositório:**
+1. **Clone ou baixe o repositório:**
    ```bash
    git clone <URL_DO_SEU_REPOSITORIO>
-   cd text_to_speech_application-1
+   cd text_to_speech_application
    ```
 
 2. **Crie e ative um ambiente virtual:**
    ```bash
    # Criar o ambiente
-   python -m venv .venv
+   python -m venv venv
 
-   # Ativar no Windows
-   .\.venv\Scripts\activate
+   # Ativar no Windows (CMD/PowerShell)
+   .\venv\Scripts\activate
    ```
 
 3. **Instale as dependências:**
@@ -48,8 +71,9 @@ Para executar este projeto localmente, siga os passos abaixo.
 Com o ambiente virtual ativado, execute o script principal para iniciar a aplicação:
 
 ```bash
-python "Text-to-Speech Application.py"
+python text_to_speech_app.py
 ```
 
-- **Para converter texto em áudio:** Vá para a aba "Texto para Áudio", digite o texto desejado e clique em "Gerar Áudio".
-- **Para transcrever um áudio:** Vá para a aba "Áudio para Texto", clique em "Selecionar" para escolher um arquivo de áudio e, em seguida, clique em "Transcrever Áudio". O texto aparecerá na caixa de texto abaixo.
+- Use os controles no topo da janela para ajustar o volume ou silenciar o áudio a qualquer momento.
+- **Para converter texto em áudio:** Na aba "Texto para Áudio", digite o texto, clique em "Gerar Áudio" e use o botão "Interromper" se necessário.
+- **Para transcrever um áudio:** Na aba "Áudio para Texto", selecione um arquivo de áudio e clique em "Transcrever Áudio".

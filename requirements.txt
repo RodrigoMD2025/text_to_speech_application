@@ -1,5 +1,4 @@
 pygame
-PySimpleGUI
 gTTS
 faster-whisper
-FreeSimpleGUI
+PyQt6
