@@ -1,4 +1,4 @@
-# 🎙️ Conversor Multimídia com PyQt6
+# 🎙️ Conversor Multimídia
 
 <div align="center">
   <img src="megafone.png" alt="Ícone do Aplicativo" width="120"/>
